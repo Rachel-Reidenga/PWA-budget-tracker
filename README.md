@@ -6,7 +6,7 @@ An app giving users a fast and easy way to track their money and allowing them t
 Updated an existing budget tracker application to allow for offline access and functionality. The user will be able to add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total should be updated when they're brought back online.
 
 ## Heroku
-Deployed App on [Heroku]()
+Deployed App on [Heroku](https://serene-garden-74212.herokuapp.com/)
 
 
 ## Table of Contents
