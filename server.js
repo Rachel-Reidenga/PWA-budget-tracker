@@ -5,7 +5,8 @@ const compression = require("compression");
 const apiRoutes = require("./routes/api.js");
 
 const PORT = process.env.PORT || 3001;
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/budget";
+// const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/budget";
+const MONGODB_URI = "mongodb://localhost/budget";
 
 const app = express();
 
@@ -27,5 +28,6 @@ mongoose.connect(MONGODB_URI || 'mongodb://localhost/PWABudgetTracker', {
 app.use(require("./routes/api.js"));
 
 app.listen(PORT, () => {
+  console.log(app._router.stack);
   console.log(`App running on port ${PORT}!`);
 });

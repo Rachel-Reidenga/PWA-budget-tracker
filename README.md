@@ -20,11 +20,11 @@ Deployed App on [Heroku](https://serene-garden-74212.herokuapp.com/)
 
 ## Images
 
-![img](screenshots/../public/assets/screenshots/Tracker2.png)
+![img](./public/assets/screenshots/Tracker2.png)
 
-![img](screenshots/../public/assets/screenshots/Tracker1.png)
+![img](./public/assets/screenshots/Tracker1.png)
 
-![img](screenshots/../public/assets/screenshots/Tracker3.png)
+![img](./public/assets/screenshots/Tracker3.png)
 
   
 

@@ -138,7 +138,7 @@ if ("serviceWorker" in navigator) {
   
   function populateTotal() {
     // reduce transaction amounts to a single total value
-    const total = transactions.reduce((total, t) => {
+    const total = transaction.reduce((total, t) => {
       return total + parseInt(t.value);
     }, 0);
   
